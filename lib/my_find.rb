@@ -9,3 +9,15 @@ def my_find(collection)
     i += 1 
   end
 end
+
+
+#refactored code :
+#
+# def my_find(collection)
+#  i = 0 
+# while i < collection.length
+#      return collection[i] if  #added if to this line to refactor
+#  yield(collection[i])
+#    i += 1 
+#  end
+# end
